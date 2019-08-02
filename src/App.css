@@ -1,0 +1,66 @@
+body {
+  background: #1CA201;
+}
+
+td {
+  padding: 10px;
+}
+
+h1.winner {
+  color: white;
+  font-size: 50px;
+  margin-left: 100px;
+  float: left;
+  margin-top: 20px;
+}
+
+button.new-game {
+  background: #FFC500;
+  border-color: #FFC500;
+  border-radius: 10px;
+  color: black;
+  font-size: 50px;
+  margin-left: 100px;
+  margin-top: 20px;
+  float: left;
+  cursor: pointer;
+}
+
+button.new-game:hover {
+  background: #E7B300;
+  border-color: #E7B300;
+}
+
+.card {
+  width: 150px;
+  height: 220px;
+  padding: 15px;
+  border: 1px solid #222;
+  border-radius: 20px;
+  position: relative;
+  background: #FFF;
+  float: left;
+}
+
+.unmatched:hover {
+  opacity: 0.9;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.card > img {
+  max-height: 220px;
+  max-width: 150px;
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.matched {
+  opacity: 0.75;
+}
